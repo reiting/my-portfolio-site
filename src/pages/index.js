@@ -7,7 +7,7 @@ import Education from './Education';
 
 const Pages = ({ user }) => {
   return (
-    <Router>
+      <HashRouter basename="/">
       <Switch>
         <Route exact path="/">
           <Me user={user} />
@@ -22,7 +22,7 @@ const Pages = ({ user }) => {
           <Education user={user} />
         </Route>
       </Switch>
-    </Router>
+      </HashRouter>
   );
 };
 
