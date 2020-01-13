@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://reiting.github.io/my-portfolio-site",
+  "homepage": ".",
   "dependencies": {
     "@carbon/icons-react": "^10.8.0",
     "@carbon/themes": "^10.9.0",
